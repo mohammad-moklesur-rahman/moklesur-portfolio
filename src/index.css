@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-body;
+  }
+}
+
+.material-icons-outlined, .material-icons, .material-symbols-outlined {
+  font-size: inherit;
+}
